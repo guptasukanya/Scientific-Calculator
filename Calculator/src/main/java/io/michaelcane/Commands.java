@@ -2,7 +2,7 @@ package io.michaelcane;
 
 public class Commands {
 
-//     Calculator calculator = new Calculator();
+    Calculator calculator = new Calculator();
     Display display = new Display();
     User user = new User();
 
