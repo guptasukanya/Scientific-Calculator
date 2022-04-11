@@ -41,6 +41,7 @@ public class Commands {
         SUM,
         RECALLMEMORY,
         TANGENT,
+        CUBE,
         VARIABLEEXPONENTIATION;
     }
 
@@ -122,6 +123,9 @@ public class Commands {
                 break;
             case CLEARERROR:
                 display.clearError();
+                break;
+            case CUBE:
+                calculator.cube(user.isNumber);
                 break;
             case SETDISPLAYMODE:
                 display.setDisplayMode(user.getInput());

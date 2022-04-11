@@ -160,6 +160,13 @@ public class Calculator {
         System.out.println("ERROR - You broke the universe");
     }
 
+    public static double cube(double value1) {
+        /**
+         * This will give the cube of a number
+         */
+        return value1 * value1 * value1;
+    }
+
     public void itsTimeForTheCalculator() {
         Commands commands=new Commands();
         commands.giveCommand(Commands.Command.COSINE);
